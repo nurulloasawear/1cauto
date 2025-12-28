@@ -3,7 +3,7 @@ import time as kutish
 import pandas as pd
 import openpyxl
 from datetime import datetime
-# 1c dagi button larni rasmlar
+
 start_button_image_path = r"C:\code\1c\buttons\start\start.jpg"
 ok_button_image_path = r"C:\code\1c\buttons\ok\ok.png"
 podbor_button_image_path = r"C:\code\1c\buttons\podbor\podbor.jpg"
@@ -12,24 +12,21 @@ x_button_image_path = r"C:\code\1c\buttons\x\x.jpg"
 first_button_image_path = r"C:\code\1c\buttons\first\first.jpg"
 second_button_image_path = r"C:\code\1c\buttons\second\second.jpg"
 oks_button_image_path = r"C:\code\1c\buttons\oks\oks.png"
-# 1c dagi input larni rasmlar
+
 ot_input_image_path = r"C:\code\1c\input\ot\ot.jpg"
 comment_input_image_path = r"C:\code\1c\input\comment\comment.jpg"
 sku_add_input_image_path = r"C:\code\1c\input\sku_add\sku_add.jpg"
 price_input_image_path  = r"C:\code\1c\input\price\price.jpg"
 
-# excel - path 
 excel_path = r"D:\test\1c экзель.XLSX"
-# excel need columns дата ,Номер заказа,sku,price
+
 class HelperFunctions:
     @staticmethod
     def format_date(value):
         if value is None or pd.isna(value):
             return ""
-        # agar pandas timestamp yoki datetime da bosa
         if isinstance(value,(pd.Timestamp,datetime)):
             return value.strftime("%d.%m.%Y")
-        #agar string tipda kesa 
         try:
             dt = pd.to_datetime(value)
             return dt.strftime("%d.%m.%Y")
@@ -238,6 +235,5 @@ def main():
 
 
                         
-main()
         
 
