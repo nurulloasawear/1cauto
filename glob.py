@@ -283,18 +283,7 @@ def main():
                                                                     kutish.sleep(1)
                                                                     continue
                                                             
-                                                    print("X tugmasi topilmadi")
-                                                print("Sana maydoni topilmadi")
-                                            print("Start pos topilmadi")
-                                        print("First tugmasi topilmadi")
-                                
-                            print("Podbor tugmasi topilmadi")
-                        print("Comment maydoni topilmadi")
-                    print("X tugmasi topilmadi")
-                print("Sana maydoni topilmadi")
-            print("Start pos topilmadi")
-        
-    print("Dastur yakunlandi!")
+ 
     
 if __name__ == "__main__":
     main()
