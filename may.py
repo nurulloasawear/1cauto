@@ -3,6 +3,7 @@ import time as kutish
 import pandas as pd
 import openpyxl
 from datetime import datetime
+import time
 # 1c dagi button larni rasmlar
 start_button_image_path = r"C:\code\1c\buttons\start\start.jpg"
 ok_button_image_path = r"C:\code\1c\buttons\ok\ok.png"
