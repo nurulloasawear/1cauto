@@ -14,6 +14,7 @@ openpyxl - Excel файллар билан ишлаш
 datetime - вақт ва сана маълумотларини ишлаш
 
 📁 Лойиха структураси
+```
 text
 1c_automation/
 ├── main.py                    # Асосий скрипт файли
@@ -47,6 +48,7 @@ text
 │       └── price.jpg
 └── example_data/              # Намуна Excel файллари
     └── 1c_example.xlsx
+```
 ⚙️ Урнатиш
 1. Зарурий шартлар
 Python 3.8 ёки юқори версия
