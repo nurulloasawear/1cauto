@@ -186,6 +186,7 @@ Excel форматини текширинг (.xlsx ё .xls)
 Экран чегараларини текширинг
 
 Диагностика учун функциялар:
+```
 python
 # Расмни топиш жараёнини кузатиш
 def debug_image_finding(image_path):
@@ -196,9 +197,11 @@ def debug_image_finding(image_path):
     else:
         print(f"Раcм топилмади: {image_path}")
         return False
-
+```
 # Скриншот олиш
+```
 boshqarish.screenshot('debug_screenshot.png')
+```
 📈 Кенгайтириш имкониятлари
 Янчи функционал:
 Хатоларни логга ёзиш - барча хатоларни файлга сақлаш
@@ -212,6 +215,7 @@ GUI интерфейси - график интерфейс яратиш
 Телеграм бот интеграцияси - жараён ҳақида хабар бериш
 
 Кодни яхшилаш:
+```
 python
 # Конфигурация файли
 config = {
@@ -226,7 +230,7 @@ config = {
         'page_load': 2
     }
 }
-
+```
 # Логгер қўшиш
 import logging
 logging.basicConfig(level=logging.INFO)
